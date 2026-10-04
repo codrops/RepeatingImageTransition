@@ -11,7 +11,12 @@ const initSmoothScrolling = () => {
 
   // Turn off GSAP's default lag smoothing to avoid conflicts with Lenis.
   gsap.ticker.lagSmoothing(0);
+
+  return lenis;
 };
 
-// Activate the smooth scrolling feature.
-initSmoothScrolling();
+// Activate the smooth scrolling feature, unless the user prefers reduced motion.
+// The instance is kept globally so the effect can pause scrolling while the panel is open.
+window.lenis = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  ? null
+  : initSmoothScrolling();

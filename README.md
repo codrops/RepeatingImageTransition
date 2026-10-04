@@ -2,7 +2,7 @@
 
 A transition that moves an image in frames (image copies/repetitions) on a path.
 
-![Image Title](https://tympanus.net/codrops/wp-content/uploads/2025/04/RepetitionEffect_featured-2.jpg)
+![Repeating Image Transition](https://tympanus.net/codrops/wp-content/uploads/2025/04/RepetitionEffect_featured-2.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=92571)
 
@@ -10,11 +10,13 @@ A transition that moves an image in frames (image copies/repetitions) on a path.
 
 ## Installation
 
-Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server).
+Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/set_up_a_local_testing_server).
 
 ## Credits
 
 - Images generated with [Midjourney](https://midjourney.com)
+- [GSAP](https://gsap.com)
+- [Lenis](https://lenis.darkroom.engineering)
 
 ## Misc
 
